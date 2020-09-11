@@ -14,7 +14,7 @@ class SiteController extends Controller
     public function category()
     {
         return view('category');
-    }
+    } 
 
     public function contacts()
     {
