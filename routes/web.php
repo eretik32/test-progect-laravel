@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'SiteController@index');
+Route::get('/contacts', 'SiteController@contacts');
+Route::get('/category/{id}', 'SiteController@category');
